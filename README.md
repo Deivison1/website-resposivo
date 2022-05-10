@@ -11,5 +11,6 @@ Trata-se de uma imoboliária, tem como base divulgar residências que sejam agra
     <li>JAVASCRIPT</li>
   </ul>
   <a href="https://deivison1.github.io/website-resposivo/">Link do site</a>
-  <img= src="https://github.com/Deivison1/website-resposivo/blob/main/preview.png">
+  
+  <img= src="https://github.com/Deivison1/website-resposivo/blob/main/preview.png" alt="">
 </div>
