@@ -211,6 +211,7 @@ body.dark-theme{
 
 .header{
   position: fixed;
+  height: 70px;
   top: 0;
   left: 0;
   width: 100%;
@@ -220,10 +221,11 @@ body.dark-theme{
 }
 
 .nav{
+  margin-top: 20px;
   height: var(--reader-height);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-logo{
   color: #fff;
@@ -233,13 +235,38 @@ body.dark-theme{
   transition: .3s;
   column-gap: .25rem;
 }
-.nav-logo i{
-  font-size: 1rem;
-}
 .nav-logo:hover{
   color: var(--first-color);
 }
-
+.nav-link i{
+  padding-right: .3rem;
+  font-size: 1.25rem;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link{
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px .5rem;
+  border-radius: .25rem;
+}
+.nav-button{
+    display: inline-block;
+    background: linear-gradient(101deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 0.5rem;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    box-shadow: 0 4px 8px hsl(228deg 66% 45% / 25%);
+    transition: .3s;
+    cursor: pointer;
+}
 @media screen and (max-width: 1023px) {
   .nav-menu{
     
