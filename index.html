@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="arquivos/img/favicon.png">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="arquivos/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Site imobiliário responsivo</title>
+    </head>
+    <body>
+        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">
+                    Holux <i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                    <div class="nav-menu">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link active-link">
+                                    <i class='bx bx-home-alt-2'></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#popular" class="nav-link ">
+                                    <i class='bx bx-building-house'></i>
+                                    <span>Residência</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#value" class="nav-link ">
+                                    <i class='bx bx-award' ></i>
+                                    <span>Valor</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link ">
+                                    <i class='bx bx-phone'></i>
+                                    <span>Contato</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                <!--====== Botão de mudança de tema =====-->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <a href="#" class="button nav-button">
+                    Subscribe
+                </a>
+            </nav>
+        </header>
+
+        
+        <main class="main">
+            
+            <section class="home section" id="home">
+                <div class="home-container container grid">
+                    <div class="home-data">
+                        <h1 class="home-titulo">
+                            Descubra a <br> Propriedade <br> Mais adequada
+                        </h1>
+                        <p class="home-descricao">
+                            Encontre uma variedade de propriedades que combinam com você com muita facilidade,
+                            esqueça todas as dificuldades em encontrar uma residência para você 
+                        </p>
+                    
+                        <form action="" class="home-search">
+                            <i class='bx bxs-map'></i>
+                            <input type="search" placeholder="pesquisar por local..." class="home-search-input">
+                            <button class="button">Pesquisar</button>
+                        </form>
+                        <div class="home-value">
+                           <div>
+                               <h1 class="home-value-number">
+                                   9k <span>+</span>
+                               </h1>
+                               <span class="home-value-descricao">
+                                Produto <br> Premium 
+                               </span>
+                           </div> 
+
+                           <div>
+                            <h1 class="home-value-number">
+                                2k <span>+</span>
+                            </h1>
+                            <span class="home-value-descricao">
+                                Cliente <br> feliz
+                            </span>
+                        </div> 
+
+                        <div>
+                            <h1 class="home-value-number">
+                                28k <span>+</span>
+                            </h1>
+                            <span class="home-value-descricao">
+                                Prêmios <br> Vencedores 
+                            </span>
+                        </div> 
+                        </div>
+                    </div>
+
+                    <div class="home-imagens">
+                        <div class="home-orbe"></div>
+                        <div class="home-img">
+                            <img src="arquivos/img/home.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos-container container grid">
+                    <div class="logos-img">
+                        <img src="arquivos/img/logo1.png" alt="">
+                    </div>
+
+                    <div class="logos-img">
+                        <img src="arquivos/img/logo2.png" alt="">
+                    </div>
+
+                    <div class="logos-img">
+                        <img src="arquivos/img/logo3.png" alt="">
+                    </div>
+
+                    <div class="logos-img">
+                        <img src="arquivos/img/logo4.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <span class="section-subtitulo">Melhor escolha</span>
+                    <h2 class="section-titulo">
+                        Residência popular<span>.</span>
+                    </h2>
+
+                    <div class="popular-container swiper">
+                        <div class="swiper-wrapper ">
+                            <article class="popular-card swiper-slide">
+                                <img src="arquivos/img/popular1.jpg"alt=""class="popular-img">
+
+                                <div class="popular-data">
+                                    <h2 class="popular-preço">
+                                      <span>$</span>66,356
+                                    </h2>
+
+                                    <h3 class="popular-titulo">
+                                      Cidade Jardim Assat
+                                    </h3>
+
+                                    <p class="popular-descricao">
+                                    
+                                      Street The Garden City Of Miraflores, Lima - Perú Av. Sol #9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular-card swiper-slide">
+                                <img src="arquivos/img/popular2.jpg"alt=""class="popular-img">
+
+                                <div class="popular-data">
+                                   <h2 class="popular-preço">
+                                        <span>$</span>35,159
+                                    </h2>
+
+                                    <h3 class="popular-titulo">
+                                        Gables Luxurious House
+                                    </h3>
+
+                                    <p class="popular-descricao">
+                                        Rua A Cidade Jardim de Miraflores, Lima - Perú Av. Sol # 9876
+                                   
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular-card swiper-slide">
+                                <img src="arquivos/img/popular3.jpg"alt=""class="popular-img">
+
+                                <div class="popular-data">
+                                    <h2 class="popular-preço">
+                                       <span>$</span>62,024
+                                    </h2>
+
+                                    <h3 class="popular-titulo">
+                                       Luxurious City Garden
+                                    </h3>
+
+                                    <p class="popular-descricao">
+                                    Rua A Cidade Jardim de Miraflores, Lima - Perú Av. Sol # 9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular-card swiper-slide">
+                                <img src="arquivos/img/popular4.jpg"alt=""class="popular-img">
+
+                                <div class="popular-data">
+                                   <h2 class="popular-preço">
+                                       <span>$</span>47,043
+                                   </h2>
+
+                                   <h3 class="popular-titulo">
+                                       Aliva Private Garden
+                                   </h3>
+
+                                   <p class="popular-descricao">
+                                    Rua A Cidade Jardim de Miraflores, Lima - Perú Av. Sol # 9876
+                                   </p>
+                                </div>
+                            </article>
+
+                            <article class="popular-card ">
+                                <img src="arquivos/img/popular5.jpg"alt=""class="popular-img">
+
+                                <div class="popular-data">
+                                   <h2 class="popular-preço">
+                                    <span>$</span>75,043
+                                   </h2>
+
+                                   <h3 class="popular-titulo">
+                                     Garden Orchard City
+                                   </h3>
+
+                                   <p class="popular-descricao">
+                                    Rua A Cidade Jardim de Miraflores, Lima - Perú Av. Sol # 9876
+                                   
+                                   </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value-container container grid">
+                    <div class="values-imagens">
+                        <div class="value-orbe"></div>
+
+                        <div class="value-img">
+                            <img src="arquivos/img/value.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value-content">
+                        <div class="value-data">
+                            <span class="section-subtitulo">Nosso valor</span>
+
+                            <h2 class="section-titulo">
+                                Valor que damos a você<span>.</span>  
+                            </h2>
+
+                            <p class="value-descricao">
+                                Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você.
+                                Acreditamos que um bom lugar para se viver pode tornar sua vida melhor.
+                            </p>
+                        </div>
+
+                        <div class="value-acordation">
+                            <div class="value-acordation-item">
+                                <header class="value-acordation-header">
+                                    <i class='bx bx-shield-x    value-acordation-icon' ></i>
+
+                                    <h3 class="value-acordation-titulo">
+                                        As melhores taxas de juros do mercado
+                                    </h3>
+
+                                    <div class="value-acordation-arrow">
+                                        <i class='bx bxs-down-arrow value-acordation-icon'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value-acordation-content">
+                                    <p class="value-acordation-descricao">
+                                        O preço que fornecemos é o melhor para você, garantimos nenhuma alteração de preço em sua propriedade devido
+                                        a vários custos inesperados que podem surgir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value-acordation-item">
+                                <header class="value-acordation-header">
+                                    <i class='bx bxs-x-square value-acordation-icon'></i>
+
+                                   <h3 class="value-acordation-titulo">
+                                    Prevenir preços instáveis
+                                    </h3>
+
+                                    <div class="value-acordation-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value-acordation-content">
+                                    <p class="value-acordation-descricao">
+                                        O preço que fornecemos é o melhor para você, garantimos nenhuma alteração de preço em sua propriedade devido
+                                        a vários custos inesperados que podem surgir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value-acordation-item">
+                                <header class="value-acordation-header">
+                                    <i class='bx bx-bar-chart-square value-acordation-icon'></i>
+
+                                    <h3 class="value-acordation-titulo">
+                                        
+                                        Os melhores preços do mercado
+                                    </h3>
+
+                                    <div class="value-acordation-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value-acordation-content">
+                                    <p class="value-acordation-descricao">
+                                        O preço que fornecemos é o melhor para você, garantimos nenhuma alteração de preço em sua propriedade devido
+                                        a vários custos inesperados que podem surgir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value-acordation-item">
+                                <header class="value-acordation-header">
+                                    <i class='bx bxs-check-square value-acordation-icon'></i>
+
+                                    <h3 class="value-acordation-titulo">
+                                        Segurança dos seus dados
+                                    </h3>
+
+                                    <div class="value-acordation-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value-acordation-content">
+                                    <p class="value-acordation-descricao">
+                                        O preço que fornecemos é o melhor para você, garantimos nenhuma alteração de preço em sua propriedade devido
+                                        a vários custos inesperados que podem surgir.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact-container container grid">
+                    <div class="contact-imagens">
+                        <div class="contact-orbe"></div>
+
+                        <div class="contact-img">
+                            <img src="arquivos/img/contact.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact-content">
+                        <div class="contact-data">
+                            <span class="section-subtitulo">Entre em contato conosco</span>
+
+                            <h2 class="section-titulo">
+                                Fácil de entrar em contato conosco<span>.</span>
+                            </h2>
+
+                            <p class="contact-descricao">
+                                Há algum problema em  encontrar a casa dos seus sonhos? Precisa de um
+                                guia na compra da primeira casa? Ou precisa de uma consulta
+                                em questões residenciais? Basta entrar em contato conosco.</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-box">
+                                <div class="contact-card-info">
+                                    <i class='bx bxs-phone-call' ></i>
+                                    <div>
+                                        <h3 class="contact-card-titulo">
+                                            
+                                            Ligue
+                                        </h3>
+
+                                        <p class="contact-card-descricao">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact-card-button">
+                                    
+                                    Ligue 
+                                </button>
+                            </div>
+
+                            <div class="contact-card-box">
+                                <div class="contact-card-info">
+                                    <i class='bx bxs-message-rounded-dots' ></i>
+                                    <div>
+                                        <h3 class="contact-card-titulo">
+
+                                            Bate-papo
+                                        </h3>
+
+                                        <p class="contact-card-descricao">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact-card-button">
+                                    
+                                    Conversar 
+                                </button>
+                            </div>
+
+
+                            <div class="contact-card-box">
+                                <div class="contact-card-info">
+                                    <i class='bx bxs-video' ></i>
+                                    <div>
+                                        <h3 class="contact-card-titulo">
+                                            vídeo 
+                                        </h3>
+
+                                        <p class="contact-card-descricao">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact-card-button">
+                                    
+                                    Faça uma chamada de vídeo 
+                                </button>
+                            </div>
+
+                            <div class="contact-card-box">
+                                <div class="contact-card-info">
+                                    <i class='bx bxs-envelope' ></i>
+                                    <div>
+                                        <h3 class="contact-card-titulo">
+                                            Mensagem
+                                        </h3>
+
+                                        <p class="contact-card-descricao">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact-card-button">
+                                    Envie uma mensagem agora!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="inscricao section">
+                <div class="inscricao-container container">
+                 <h1 class="inscricao-titulo">
+                    Comece com a Holux
+                 </h1>   
+
+                 <p class="inscricao-descricao">
+                     
+                    Assine e encontre preços super atrativos.
+                    Encontre sua residência em breve 
+                 </p>
+                 <a href="#" class="button inscricao-button">
+                    Iniciar
+                 </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer-container container grid">
+                <div>
+                    <a href="#" class="footer-logo">
+                        Holux<i class='bx bxs-home-alt-2'></i>
+                    </a>
+                    <p class="footer-descricao">
+                        Nossa visão é fazer com que todas as pessoas <br>
+                        Tenha o melhor lugar para viver para eles.
+                    </p>
+                </div>
+
+                <div class="footer-content">
+                    <div>
+                        <h3 class="footer-titulo">
+                            Sobre
+                        </h3>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">
+                                    Sobre nós</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">
+                                    Recursos</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Notícias e   blogues</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-titulo">
+                            Companhia
+                        </h3>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">Como trabalhamos ?</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="footer-link">
+                                    Capital</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">
+                                    Security</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-titulo">
+                            Suporte
+                        </h3>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">
+                                    FAQs</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="footer-link">
+                                    Centro de Apoio</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Entre em contato conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-titulo">
+                            Siga-nos
+                        </h3>
+                            
+                        <ul class="footer-social">
+                            <a href="https://github.com/Deivison1" class="footer-social-link" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/deivison-santos-143a60153/" class="footer-social-link" target="_blank">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+
+                            <a href="https://mail.google.com/mail/u/1/#inbox" class="footer-social-link" target="_blank">
+                                <i class='bx bxl-gmail'></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-info container">
+                <span class="footer-copy">&#169; Deivison Santos All rigths reserved</span>
+
+                <div class="footer-privacidade">
+                    <a href="#">Termos e acordos</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+
+        </footer>
+        <!--=============== SCROLL-UP ===============-->
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+            
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="arquivos/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="arquivos/js/swiper-bundle.min.js"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>
+                            
