@@ -1,6 +1,6 @@
 # website-resposivo
 <h2>Vou utilizar esse website como base para melhrar meus projetos relacionados ao front-end.
-Trata-se de uma imoboliária, tem como base divulgar residências que sejam agradaveis para os clientes que buscam qualidade e conforto.</h2>
+Trata-se de uma imoboliária, tem como objetivo divulgar residências que sejam agradaveis para os clientes que buscam qualidade e conforto.</h2>
 
 <h3>Tecnologias utilizadas</h3>
 
