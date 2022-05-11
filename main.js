@@ -38,16 +38,16 @@ acordationItems.forEach((item) =>{
   })
 })
 
-const toggleItem = (item) =>{
-   
-  const acordationContent = item.querySelector('.value-acordation-content')
+function toggleItem(item) {
 
-  if(item.classList.contains('acordation-open')){
-    acordationContent.removeAttribute('style')
-    item.classList.remove('acordation-open')
-  }else{
-    acordationContent.style.height = acordationContent.scrollHeight + 'px'
-    item.classList.add('acordation-open')
+  const acordationContent = item.querySelector('.value-acordation-content');
+
+  if (item.classList.contains('acordation-open')) {
+    acordationContent.removeAttribute('style');
+    item.classList.remove('acordation-open');
+  } else {
+    acordationContent.style.height = acordationContent.scrollHeight + 'px';
+    item.classList.add('acordation-open');
 
   }
 }
