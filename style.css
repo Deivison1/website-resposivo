@@ -134,9 +134,9 @@ body.dark-theme{
 .dark-theme .home-img,
 .dark-theme .popular-card:hover,
 .dark-theme .value-img,
-.dark-theme .acordation-open,
-.dark-theme .acordation-open .value-acordation-icon,
-.dark-theme .acordation-open .value-acordation-arrow,
+.dark-theme .acordo-open,
+.dark-theme .acordo-open .value-acordation-icon,
+.dark-theme .acordo-open .value-acordation-arrow,
 .dark-theme .contact-img,
 .dark-theme .contact-card-box:hover,
 .dark-theme .scrollup{
@@ -255,18 +255,7 @@ body.dark-theme{
   padding: 4px .5rem;
   border-radius: .25rem;
 }
-.nav-button{
-    display: inline-block;
-    background: linear-gradient(101deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
-    color: #fff;
-    padding: 14px 28px;
-    border-radius: 0.5rem;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    box-shadow: 0 4px 8px hsl(228deg 66% 45% / 25%);
-    transition: .3s;
-    cursor: pointer;
-}
+
 @media screen and (max-width: 1023px) {
   .nav-menu{
     
@@ -289,6 +278,7 @@ body.dark-theme{
     align-items: center;
   }
   .nav-link{
+    
     color: var(--text-color);
     display: flex;
     padding: .5rem;
@@ -301,8 +291,10 @@ body.dark-theme{
     display: none;
   }
 }
-/* 
-Alterar cabeçalho de plano de fundo */
+
+
+/* Alterar cabeçalho de plano de fundo */
+
 .scroll-header{
    background-color: var(--body-color);
    box-sizing: 0 1px 4px hsl(228, 4%, 15%, .1)
@@ -434,7 +426,7 @@ Alterar cabeçalho de plano de fundo */
   hsl(228, 66%, 47%));
   color: #fff;
   padding: 14px 28px;
-  border-radius: .5rem;
+  border-radius: .25rem;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   box-shadow: 0 4px 8px hsl(228, 66%, 45%, .25);
@@ -442,13 +434,26 @@ Alterar cabeçalho de plano de fundo */
   cursor: pointer;
 }
 .button:hover{
-
   box-shadow: 0 4px 12px solid hsl(228, 66%, 45%, .25);
 }
 .nav-button{
-  display: none;
+  display: inline-block;
+  background: linear-gradient(101deg, hsl(228, 66%, 53%),
+  hsl(228, 66%, 47%));
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: .5rem;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  box-shadow: 0 4px 8px hsl(228, 66%, 45%, .25);
+  transition: .3s;
+  cursor: pointer;
 }
 
+.nav-button{
+  display: none;
+  
+}
 /*=============== LOGOS ===============*/
 
 .logos-container{
@@ -641,18 +646,18 @@ Alterar cabeçalho de plano de fundo */
 }
 /*Gire o ícone e adicione sombras*/
 
-.acordation-open{
+.acordo-open{
   box-shadow:  0 12px 32px hsl(228, 66%, 45%, .1);
 }
-.acordation-open .value-acordation-icon{
+.acordo-open .value-acordation-icon{
   box-shadow:  0 2px 4px hsl(228, 66%, 45%, .1);
 }
 
-.acordation-open .value-acordation-arrow{
+.acordo-open .value-acordation-arrow{
   box-shadow: 0 2px 4px hsl(228, 4%, 15%, .1);
 }
 
-.acordation-open .value-acordation-arrow i{
+.acordo-open .value-acordation-arrow i{
   transform: rotate(-180deg);
 }
 /*=============== CONTACT ===============*/
@@ -994,7 +999,7 @@ Alterar cabeçalho de plano de fundo */
     justify-content: center;
   }
   .footer-content{
-    grid-template-columns: repeat(3,max-content);
+    grid-template-columns: repeat(3, max-content);
   }
 }
 

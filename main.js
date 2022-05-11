@@ -1,7 +1,11 @@
 function scrollHeader(){
     const header = document.getElementById('header')
     // Quando a rolagem for maior que 50 de altura da janela de visualização, adicione a classe scroll-header à tag de cabeçalho
-    if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+    if(this.scrollY >= 50) {
+      header.classList.add('scroll-header')
+  } else {
+    header.classList.remove('scroll-header')
+  }
 }
 window.addEventListener('scroll', scrollHeader)
 
@@ -17,18 +21,18 @@ var swiperPopular = new Swiper(".popular-container", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-    },
+    }
   });
 
-/*=============== VALUE ACCORDION ===============*/
+/*=============== ACORDO DE VALOR ===============*/
 
-const acordationItems =document.querySelectorAll('.value-acordation-item')
+const acordoItems =document.querySelectorAll('.value-acordation-item')
 
-acordationItems.forEach((item) =>{
-  const acordationHeader = item.querySelector('.value-acordation-header')
+acordoItems.forEach((item) =>{
+  const acordoHeader = item.querySelector('.value-acordation-header')
 
-  acordationHeader.addEventListener('click', () =>{
-    const openItem = document.querySelectorAll('acordation-open')
+  acordoHeader.addEventListener('click', () =>{
+    const openItem = document.querySelectorAll('acordo-open')
      toggleItem(item)
 
      if(openItem && openItem !== item){
@@ -40,14 +44,14 @@ acordationItems.forEach((item) =>{
 
 function toggleItem(item) {
 
-  const acordationContent = item.querySelector('.value-acordation-content');
+  const acordoContent = item.querySelector('.value-acordation-content');
 
-  if (item.classList.contains('acordation-open')) {
-    acordationContent.removeAttribute('style');
-    item.classList.remove('acordation-open');
+  if (item.classList.contains('acordo-open')) {
+    acordoContent.removeAttribute('style');
+    item.classList.remove('acordo-open');
   } else {
-    acordationContent.style.height = acordationContent.scrollHeight + 'px';
-    item.classList.add('acordation-open');
+    acordoContent.style.height = acordoContent.scrollHeight + 'px';
+    item.classList.add('acordo-open');
 
   }
 }
