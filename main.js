@@ -32,8 +32,8 @@ acordoItems.forEach((item) =>{
   const acordoHeader = item.querySelector('.value-acordation-header')
 
   acordoHeader.addEventListener('click', () =>{
-    const openItem = document.querySelectorAll('acordo-open')
-     toggleItem(item)
+    const openItem = document.querySelector('acordo-open')
+    toggleItem(item)
 
      if(openItem && openItem !== item){
        toggleItem(openItem)
